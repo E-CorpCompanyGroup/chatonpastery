@@ -1,0 +1,23 @@
+@media all and (max-width: 800px) {
+    .cakes{
+        position: relative;
+        width: 30%;
+        height: auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline-table;
+    } 
+
+    .classesDiv{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        top: 100px;
+        background: red;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}

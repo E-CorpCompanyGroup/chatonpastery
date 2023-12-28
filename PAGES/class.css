@@ -1,0 +1,47 @@
+.classesDiv{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    top: 210px;
+    background: transparent;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.prducts{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 0px;
+    bottom: 0;
+    background: transparent;
+    overflow-y: auto;
+    overflow-x: hidden;   
+}
+
+.details{
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 0px;
+    bottom: 0;
+    background: #00000080;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    right: 0;
+}
+
+@media all and (max-width: 800px) {
+
+    .classesDiv{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        top: 150px;
+        background: transparent;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}

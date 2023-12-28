@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    color:#4c2741;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #e98795;
+}
+
+.Name{
+    position: relative;
+    margin-top: 2rem;
+    font-size: 25px;
+    color:#4c2741;
+
+}
+
+.vision{
+    width: 100%;
+    text-align: center;
+    color: orange;
+}
+
+a{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    position: relative;
+    width: 95%;
+    left: 1%;
+    border-radius: 5px;
+    background: #00000080;
+    display: inline-flex;
+    padding: 1%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.AppName{
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header{
+    position: relative;
+    width: 50%;
+    left: 30%;
+    display: inline-flex;
+}
+
+.moto{
+    position: relative;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 95%;
+    height: 30%;
+    background: transparent;
+    display: block;
+    left: 2%;
+    border-radius: 5px;
+}
+
+h1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    padding: 1%;
+    word-wrap: break-word;
+    color: white;
+}
+
+.cakes{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    left: 2%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+}
+
+
+.cakeholder{
+    position: relative;
+    display: block;
+    background: #00000080;
+}
+
+a:hover{
+    color: orange;
+}
+
+button{
+    position: relative;
+    width: 95%;
+    left: 2%;
+    background: #00000080;
+    height: 50px;
+    border: none;
+    text-align: left;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    border-radius: 5px;
+    padding-left: 1%;
+    color: white;
+}
